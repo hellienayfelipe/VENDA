@@ -50,7 +50,7 @@ table {
 }
 
 body{
-    background-image: url("imagem/anastase-maragos-9dzWZQWZMdE-unsplash.jpg");
+	background-image: url(imagem/anastase-maragos-9dzWZQWZMdE-unsplash.jpg);
     background-size: cover;
     /* background-repeat: no-repeat;
     background-position: center; */
@@ -116,6 +116,11 @@ body{
 	font-family: "Nunito";
 	letter-spacing: 3px;
 	font-weight: 600;
+	transition: background-color 0.9s ease;
+}
+
+.botao-comprar:hover{
+	background-color: red;
 }
 
 .formulario{
@@ -130,7 +135,7 @@ body{
 	display: block;
 }
 
-.campos{
+.campo{
 	width: 100%;
 	padding-left: 10px;
 	padding-right: 10px;
@@ -141,3 +146,7 @@ body{
 	font-weight: 300px;
 	margin-bottom: 10px;
 }
+
+
+
+  
